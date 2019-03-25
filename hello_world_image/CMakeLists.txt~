@@ -1,0 +1,8 @@
+CMAKE_MINIMUM_REQUIRED ( VERSION 2.6 )
+
+project(hello_world_image)
+
+add_executable(
+	hello_world_image
+	src/hello_world_image_creator.cpp
+)
